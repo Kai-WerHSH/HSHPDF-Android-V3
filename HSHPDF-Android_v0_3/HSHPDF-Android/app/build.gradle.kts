@@ -1,5 +1,5 @@
-// Criador da fonte: Henrique de Souza Henrique
-// Coautor e assistente de IA: Claude (Anthropic)
+// Criador da fonte: Henrique(HSH)
+
 plugins {
     id("com.android.application")
     id("org.jetbrains.kotlin.android")
