@@ -1,7 +1,7 @@
 # HSHPDF para Android (nativo: Kotlin + Jetpack Compose + MuPDF)
 
-**Criador da fonte:** Henrique de Souza Henrique
-**Coautor e assistente de IA:** Claude (Anthropic)
+**Criador da fonte:** Henrique(HSH)
+
 
 ## Novo na 0.3
 **Modo leitura (só o quadrinho)** — botão **Ler** na barra de cima; quadrinhos (CBZ/CBR/imagens) já abrem assim (dá para desligar em Ajustes).
