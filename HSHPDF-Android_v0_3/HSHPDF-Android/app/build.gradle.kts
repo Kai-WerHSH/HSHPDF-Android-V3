@@ -49,10 +49,11 @@ dependencies {
     implementation("androidx.compose.material3:material3")
     implementation("org.jetbrains.kotlinx:kotlinx-coroutines-android:1.8.1")
 
-    // Motor MuPDF (o mesmo do PyMuPDF): PDF, EPUB, XPS. Licença AGPL: ok para uso pessoal.
-    implementation("com.artifex.mupdf:fitz:1.2+")
+    // MuPDF: versão fixa já utilizada em uma compilação bem-sucedida do HSHPDF.
+    implementation("net.timelegend.mupdf:fitz:1.27.1.13")
 
-    // CBR (RAR): leitura em Java puro
-    implementation("com.github.junrar:junrar:7.5.+")
+    // Junrar: versão fixa; 7.5.10 inclui correção de segurança para extração RAR.
+    implementation("com.github.junrar:junrar:7.5.10")
+
     implementation("androidx.documentfile:documentfile:1.0.1")
 }
